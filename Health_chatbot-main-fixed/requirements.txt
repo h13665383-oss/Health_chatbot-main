@@ -1,0 +1,18 @@
+# Core framework
+fastapi
+uvicorn[standard]
+
+# AI / OpenAI
+openai
+python-dotenv
+
+# Database (Supabase/Postgres)
+psycopg2-binary
+sqlalchemy
+
+# Optional: if you want ORM migrations
+alembic
+
+# For making API requests
+httpx
+requests

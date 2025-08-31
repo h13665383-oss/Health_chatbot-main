@@ -1,0 +1,31 @@
+{
+  "name": "healthcare-assistant-backend",
+  "version": "1.0.0",
+  "description": "Multilingual Healthcare Assistant API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7",
+    "openai": "^4.52.2",
+    "axios": "^1.7.2"
+  },
+  "keywords": [
+    "healthcare",
+    "api",
+    "multilingual",
+    "fastapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
